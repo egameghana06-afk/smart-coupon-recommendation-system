@@ -112,14 +112,7 @@ pip install -r requirements.txt
 python app.py
 4️⃣ Open in Browser
 http://127.0.0.1:5000/
-📸 Screenshots
 
-(Add your project UI images here)
-
-Example:
-
-![Home Page](screenshots/home.png)
-![Results](screenshots/result.png)
 🚀 Future Scope
 🔥 Real-time coupon recommendation using streaming (Kafka)
 ☁️ Cloud deployment (AWS / Render / Heroku)
@@ -137,12 +130,4 @@ Structuring a real-world project
 👩‍💻 Author
 
 Ega Meghana
-
-⭐ Show Your Support
-
-If you like this project, please ⭐ the repository!
-
-
----
-This is where your project becomes 🔥 **powerful**
 
