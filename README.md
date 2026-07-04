@@ -1,97 +1,112 @@
 # IMPROVING SHOPPING MALL REVENUE BY REAL TIME CUSTOMISED DIGITAL COUPON ISSUANCE
 
-## 📌 Overview
 
-The Real-Time Digital Coupon Engine is a data-driven system designed to improve shopping mall revenue by issuing personalized digital coupons to customers in real time. The system leverages user behavior, purchase patterns, and analytics to deliver targeted offers that enhance customer engagement and increase conversions.
-
----
-
-## 🚀 Features
-
-* 🎯 Personalized coupon generation based on user behavior
-* ⚡ Real-time coupon issuance and delivery
-* 📊 Customer segmentation and analytics
-* 🛒 Purchase pattern tracking
-* 📈 Revenue optimization through targeted offers
-* 🔔 Event-based triggers (entry, browsing, inactivity)
-
----
-
-## 🧠 Use Case
-
-Shopping malls and retail businesses can use this system to:
 
 * Increase customer retention
 * Boost sales through targeted promotions
 * Improve customer experience with relevant offers
 
 ---
+# 🛍️ Smart Coupon Recommendation System
+
+## 📌 Overview
+This project focuses on improving shopping mall revenue by generating **real-time customized digital coupons** using Machine Learning models.
+
+The system analyzes user behavior and predicts the most effective coupon type to increase engagement and sales.
+
+---
+
+## 🎯 Problem Statement
+Shopping malls struggle to:
+- Attract customers in real-time
+- Provide personalized offers
+- Maximize revenue through targeted marketing
+
+This project solves these issues using **ML-based prediction models**.
+
+---
+
+## 💡 Solution
+We built a system that:
+- Analyzes historical shopping data
+- Trains multiple ML models
+- Predicts the best coupon type
+- Displays results through a user interface
+
+---
+
+## ⚙️ Tech Stack
+- Python 🐍
+- Pandas & NumPy
+- Scikit-learn
+- Flask (for web interface)
+- HTML/CSS (Frontend)
+
+---
+
+## 🧠 Machine Learning Models Used
+- Support Vector Machine (SVM)
+- Logistic Regression
+- Decision Tree Classifier
+- Recurrent Neural Network (RNN)
+
+---
+
+## 📊 Results
+| Model | Accuracy |
+|------|---------|
+| Decision Tree | ~55% |
+| SVM | ~52% |
+| Logistic Regression | ~51% |
+| RNN | ~50% |
+
+👉 Decision Tree performed the best among all models.
+
+---
 
 ## 🏗️ System Architecture
-
-1. Data Collection (user activity, transactions)
-2. Processing Layer (real-time stream processing)
-3. Recommendation Engine (coupon generation logic)
-4. Delivery System (mobile/web notifications)
-5. Analytics Dashboard
-
----
-
-## 🛠️ Tech Stack
-
-* **Programming Language:** Python
-* **Data Processing:** Apache Kafka / Spark
-* **Backend:** Flask / FastAPI
-* **Database:** PostgreSQL / MongoDB
-* **Frontend (optional):** React
-* **Cloud (optional):** AWS / GCP
+The system follows this flow:
+1. User logs into system
+2. Data is processed
+3. ML model predicts coupon type
+4. Results are displayed to user
 
 ---
 
-## 📂 Project Structure
-
-```
+## 📁 Project Structure 
+smart-coupon-recommendation-system/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
 ├── data/
-├── models/
-├── api/
-├── services/
-├── utils/
-├── notebooks/
-├── main.py
-└── README.md
-```
+├── model/
+├── templates/
+├── static/
+├── screenshots/
+
 
 ---
 
-## ⚙️ How It Works
+## ▶️ How to Run the Project
 
-1. User enters mall / interacts with system
-2. Data is captured and sent to processing pipeline
-3. Recommendation engine analyzes behavior
-4. Personalized coupon is generated
-5. Coupon is delivered in real time
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/egameghana06-afk/smart-coupon-recommendation-system.git
+cd smart-coupon-recommendation-system
+
 
 ---
 
-## 📊 Future Improvements
+## ▶️ How to Run the Project
 
-* Machine Learning-based recommendation system
-* Integration with mobile apps
-* A/B testing for coupon effectiveness
-* Real-time dashboards for business insights
+### Step 1: Clone Repository
+```bash
+git clone https://github.com/egameghana06-afk/smart-coupon-recommendation-system.git
+cd smart-coupon-recommendation-system
 
----
-
-## 🤝 Contribution
-
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
-
----
-
-##
-
-
-
+📸 Screenshots
 
 
 
