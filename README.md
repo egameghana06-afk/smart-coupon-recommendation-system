@@ -128,6 +128,4 @@ Building end-to-end ML project
 Backend development using Flask
 Structuring a real-world project
 👩‍💻 Author
-
 Ega Meghana
-
